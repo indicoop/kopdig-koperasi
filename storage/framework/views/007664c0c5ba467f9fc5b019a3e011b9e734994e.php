@@ -174,4 +174,4 @@
 <script src="<?php echo e(URL::asset('/assets/js/app.min.js')); ?>"></script>
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\kopdig\Kopdig-BE\resources\views/pages/sekretaris/index.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.sekretaris.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\kopdig\Kopdig-BE\resources\views/pages/sekretaris/index.blade.php ENDPATH**/ ?>

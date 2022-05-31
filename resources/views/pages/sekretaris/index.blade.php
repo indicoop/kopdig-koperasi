@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.sekretaris.app')
 
 @section('title')
     @lang('translation.starter')
