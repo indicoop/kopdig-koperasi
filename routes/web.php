@@ -8,7 +8,8 @@ use Illuminate\Support\Facades\Route;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 Route::get('/', IndexController::class);
-Route::view('/anggota','layouts.koperasi.admin.anggota');
+Route::view('/sekretaris','layouts.koperasi.admin.sekretaris');
+Route::view('/index',view:'layouts.koperasi.admin.index');
 
 // Auth::routes();
 // //Language Translation
